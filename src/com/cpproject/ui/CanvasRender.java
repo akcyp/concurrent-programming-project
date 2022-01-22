@@ -84,9 +84,8 @@ class CanvasRender extends JComponent {
     private Color getClientColor (Client client) {
         return switch (client.getClientState()) {
             case IN_SHOP -> Color.GREEN;
-            case IN_QUEUE -> Color.BLACK;
+            case IN_QUEUE, CASHING -> Color.BLACK;
             case LEAVING -> Color.RED;
-            case CASHING -> Color.BLUE;
         };
     }
     private void printCashier (Graphics2D g2, Rectangle box, Cashier cashier) {
