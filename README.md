@@ -49,8 +49,8 @@ The same values can be modified while the program is running through the appropr
   </ul>
   Each customer passes through each of these states in that order.
 </div>
-
-<div style="clear: both">
+</br></br></br></br></br></br></br></br>
+<div>
   <img align="right" src="https://user-images.githubusercontent.com/67923777/152676255-19259e46-dfa6-4b92-82bc-d1d52310e92c.png" style="margin: 5px" />
   The checkouts located in the store are represented by objects located on the right side of the GUI. Anyone like that an object is assigned a color depending on its state of affairs is located.
   <ul>
